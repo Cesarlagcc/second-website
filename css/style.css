@@ -1,0 +1,72 @@
+body{
+	background-color:#28502E;
+	margin:0 auto;
+}
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+nav{
+	/*background: red;*/
+	/*width:50%;*/
+	/*height: 50px;*/
+	/*margin:0 auto;*/
+	border-radius: 0px 0px 10px 10px;
+	/*width: 100%;*/
+}
+
+nav li{
+	float:left;
+	width: 33.33%;
+	/*border:1px solid red;*/
+	/*height:100px;*/
+	background:#1B2F33;
+	text-align: center;
+	padding:10px 10px;
+	font-family: Impact;
+}
+
+nav ul{
+	list-style:none; /*this takes off the bullet points*/
+	/*border:1px solid red;*/
+	background:#36626b;
+	overflow: auto;
+	margin:0 auto;
+	padding:5px 5px;/*for future reference, a padding of 0 will make the nav bar completely shift to the left side.*/
+
+}
+
+nav a{
+	color:#ddf8ff;
+	text-decoration: none;
+	font-size: 30px;
+	transition: .8s;
+
+}
+
+nav a:hover{
+	color:#fff;
+}
+
+.header{
+	background-image: url("../images/forest.jpeg");
+	background-size: cover;
+	background-position: bottom;
+	padding:80px 20px;
+	/*width:100vw;
+	height: 100vh;*/
+}
+
+.header h1{
+	color:#ffffff;
+	text-align: center;
+
+}
+
+
+
+
+
+
