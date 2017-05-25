@@ -65,6 +65,51 @@ nav a:hover{
 
 }
 
+.main-content{
+	width:95%;
+	padding:20px;
+	margin:10px auto;
+	border:10px solid #1E2019;
+	border-left:none;
+	border-right: none;
+	background-color: #8DAB7F;
+}
+
+.main-content h2{
+	text-decoration: underline;
+	text-align: center;
+}
+
+.main-content img{
+	/*margin:30px;
+	/*padding:20px;*/
+	/*width: 50%;
+	*/
+}
+
+p{
+	font-size:20px;
+}
+
+.img-50{
+	display: block;
+	margin:50px auto;
+	width:50%;
+	box-shadow: 10px 10px 100px 10px #ddf8ff;
+}
+
+
+.img-40{
+	display: block;
+	margin:10px auto;
+	width: 50%;
+}
+
+#info1{
+	clear: both;
+}
+
+
 
 
 
