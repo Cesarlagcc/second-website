@@ -1,11 +1,26 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
 	background-color:#28502E;
 	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
 }
+
 *{
 	box-sizing: border-box;
 	padding:0;
 	margin:0;
+}
+
+p{
+	font-size:16px;
+}
+
+h2{
+	background-color:#28502E;
+	margin:10px 0;
+	padding:10px;
 }
 
 nav{
@@ -73,11 +88,36 @@ nav a:hover{
 	border-left:none;
 	border-right: none;
 	background-color: #8DAB7F;
+	overflow: auto;
+	/*font-family: 'Roboto', sans-serif;*/
 }
 
-.main-content h2{
-	text-decoration: underline;
-	text-align: center;
+.side1{
+	width:50%;
+	float: left;
+	background:white;
+	overflow: auto;
+	border:2px solid black;
+	border-left:none;
+	border-right: none;
+}
+
+.side1 p{
+	text-indent: 20px;
+}
+
+.side2{
+	width:48%;
+	background-color:white;
+	/*overflow: auto;*/
+	float: right;
+	border:2px solid black;
+	border-left:none;
+	border-right:none;
+}
+
+.side2 p{
+	text-indent:20px;
 }
 
 .main-content img{
@@ -87,9 +127,6 @@ nav a:hover{
 	*/
 }
 
-p{
-	font-size:20px;
-}
 
 .img-50{
 	display: block;
@@ -105,11 +142,32 @@ p{
 	width: 50%;
 }
 
-#info1{
-	clear: both;
+.forest4{
+	/*float:left;*/
+	/*width:500px;*/
+	/*clear: both;*/
+	width:100%;
 }
 
+.forest5{
+	/*float:left;*/
+	/*width:500px;*/
+	/*clear: both;*/
+	width:99.9%;
+	margin:0 auto;
+	/*display: block;*/
+	/*background-size: stretch;*/
+}
 
+/*These are utility classes
+=====================================*/
+.center-text{
+	text-decoration:underline;
+	text-align: center;
+	color:white;
+	/*font-family: sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+}
 
 
 
