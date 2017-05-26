@@ -101,6 +101,7 @@ nav a:hover{
 	border:2px solid black;
 	border-left:none;
 	border-right: none;
+	border-radius: 34px 34px 0px 0px;
 }
 
 .side1 p{
@@ -115,6 +116,7 @@ nav a:hover{
 	border:2px solid black;
 	border-left:none;
 	border-right:none;
+	border-radius:34px 34px 0px 0px;
 }
 
 .side2 p{
@@ -151,6 +153,7 @@ nav a:hover{
 }
 
 .forest5{
+	border-radius:34px 34px 0px 0px;
 	/*float:left;*/
 	/*width:500px;*/
 	/*clear: both;*/
@@ -185,6 +188,11 @@ label{
 	/*border:1px solid red;*/
 }
 
+input{
+
+}
+
+
 #submit{
 	width: 10%;
 	height: 40px;
@@ -197,8 +205,41 @@ label{
 
 }
 
-.radio{
+*{
+  box-sizing:border-box;
+}
 
+.row{
+ clear:both;
+ background: #28502E;
+ padding:10px;
+ border-radius:50px;
+}  
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.col-1-2{
+  float:left;
+  width:48%;
+  background:#b5d6a7;
+  padding:10px;
+  margin:1%;
+  border-radius:10px;
+}
+
+.col-1-4{
+  float:left;
+  width:23%;
+  margin:1%;
+  background-color:#b5d6a7;
+  padding:10px;
+  border-radius:10px;
+/*   background-color:lightgreen; */
 }
 
 
