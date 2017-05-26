@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<title>My Second Website</title>
+	</head>	
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header">
+			<h1>Contact</h1>
+		</div>
+			<section class="main-content">
+				<h2 class="center-text">Send Me a Message</h2>
+				<form>
+				<!-- <form method="post" action="process.php"> for future reference on a secure way for forms to be sent-->
+					<label>
+						Name:<br>
+						<input type="text" name="name" placeholder="Name here">  
+					</label>
+					<label>
+						Email:<br>
+						<input type="text" name="email" placeholder="email here">
+					</label>
+					<label>
+						Subject:<br>
+						<input type="text" name="Subject" placeholder="subject">
+					</label>
+					<label>
+						Message: <br>
+						<textarea rows="10" cols="50" name="message" placeholder="message"></textarea>
+					</label>
+					<label>
+						<input class="radio" type="radio" name="subscribe" value="yes"> Yes I want to subscribe.
+					</label>
+					<label>
+						<input class="radio" type="radio" name="subscribe" value="no"> No I don't want to subscribe.
+					</label>
+					<label>
+						<button id="submit" type="submit">Submit</button>
+					</label>
+				</form>
+			</section><!--end section-->
+	</body>
+</html>
